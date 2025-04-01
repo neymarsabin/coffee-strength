@@ -1,10 +1,14 @@
 ### Inputs
+```
 A = Bean Type(Light, Medium, Dark)
 B = Brewing Time(Short, Medium, Long)
 C = Water Temperature(Low, Medium, High)
+```
 
 ### Outputs
+```
 D = Coffee Strength(Mild, Regular, Strong, Extra Strong)
+```
 
 ### Rules
 ```matlab
