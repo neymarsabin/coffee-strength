@@ -1,7 +1,7 @@
 pkg load fuzzy-logic-toolkit
 
 %% let us define fuzzy inference system %%
-fis = newfis('CoffeeStrengthRecommender');
+fis = newfis('CoffeeStrength');
 
 %% input variables %%
 %% A = Bean Type = (Light, Medium, Dark) %%
