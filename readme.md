@@ -62,7 +62,7 @@ D = Coffee Strength(Mild, Regular, Strong, Extra Strong)
 %% 7. If bean is Everest Bold and brew duration is medium and temperature is high, then coffee is strong. %%
 %% 8. If bean is Everest Bold and brew duration is long, then coffee is extra strong. %%
 %% 9. If bean is Everest Bold and brew duration is very long, then coffee is extra strong. %%
-%% 10. If bean is Kanchanjunga Dark and brew duration is very long and temperatue is high, then cofee is extra strong. %%
+%% 10. If bean is Kanchanjunga Dark and brew duration is very long and temperatue is high, then coffee is extra strong. %%
 %% 11. If bean is Kanchanjunga Dark and brew duration is medium, then coffee is strong. %%
 %% 12. If bean is Kanchanjunga Dark and brew duration is long and temperature is low, then coffee is strong. %%
 %% 13. If bean is Kanachanjunga Dark and brew duration is very long, then coffee is extra strong. %%
