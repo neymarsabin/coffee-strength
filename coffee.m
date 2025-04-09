@@ -22,6 +22,8 @@ coffee_fuzzy = addmf(coffee_fuzzy, 'input', 2, 'Very Long', 'gaussmf', [2 12]); 
 showfis(coffee_fuzzy);
 
 %% defining water temperature input variable %%
+%% low and high variable are sigmoid functions %%
+%% medium is a guassian membership function %%
 coffee_fuzzy = addvar(coffee_fuzzy, 'input', 'Water Temperature (X3)', [60 110]);
 coffee_fuzzy = addmf(coffee_fuzzy, 'input', 3, 'Low', 'sigmf', [-0.2 85]);
 coffee_fuzzy = addmf(coffee_fuzzy, 'input', 3, 'Medium', 'gaussmf', [2 90]);

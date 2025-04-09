@@ -53,18 +53,18 @@ D = Coffee Strength(Mild, Regular, Strong, Extra Strong)
 
 ### Rules
 ```matlab
-%% 1. If the bean is Pahadi Light and brew duration is short, then coffee is mild. %%
-%% 2. If bean is Pahadi Light and brew duration is medium and temperature is low, then coffee is regular. %%
-%% 3. If bean is Pahadi Light and brew duration is long, the coffee is strong. %%
-%% 4. If bean is Himalayan Medium and brew duration is short and temperature is high, then coffee is regular. %%
-%% 5. If bean is Himalayan Medium and brew duration is medium and temperature is medium, then coffee is strong. %%
-%% 6. If bean is Himalayan Medium and brew duration is long, then coffee is strong. %%
-%% 7. If bean is Everest Bold and brew duration is medium and temperature is high, then coffee is strong. %%
-%% 8. If bean is Everest Bold and brew duration is long, then coffee is extra strong. %%
-%% 9. If bean is Everest Bold and brew duration is very long, then coffee is extra strong. %%
-%% 10. If bean is Kanchanjunga Dark and brew duration is very long and temperatue is high, then coffee is extra strong. %%
-%% 11. If bean is Kanchanjunga Dark and brew duration is medium, then coffee is strong. %%
-%% 12. If bean is Kanchanjunga Dark and brew duration is long and temperature is low, then coffee is strong. %%
+%% 1. If bean is Pahadi Light and brew_duration is short, then coffee is mild. %%
+%% 2. If bean is Pahadi Light and brew_duration is medium and temperature is low, then coffee is regular. %%
+%% 3. If bean is Pahadi Light and brew_duration is long, the coffee is strong. %%
+%% 4. If bean is Himalayan Medium and brew_duration is short and temperature is high, then coffee is regular. %%
+%% 5. If bean is Himalayan Medium and brew_duration is medium and temperature is medium, then coffee is strong. %%
+%% 6. If bean is Himalayan Medium and brew_duration is long, then coffee is strong. %%
+%% 7. If bean is Everest Bold and brew_duration is medium and temperature is high, then coffee is strong. %%
+%% 8. If bean is Everest Bold and brew_duration is long, then coffee is extra strong. %%
+%% 9. If bean is Everest Bold and brew_duration is very long, then coffee is extra strong. %%
+%% 10. If bean is Kanchanjunga Dark and brew_duration is very long and temperature is high, then coffee is extra strong. %%
+%% 11. If bean is Kanchanjunga Dark and brew_duration is medium, then coffee is strong. %%
+%% 12. If bean is Kanchanjunga Dark and brew_duration is long and temperature is low, then coffee is strong. %%
 %% 13. If bean is Kanachanjunga Dark and brew duration is very long, then coffee is extra strong. %%
 %% 14. If bean is Everest Bold and brew duration is Short, then coffee is regular. %%
 %% 15. If bean is Everest Bold and brew duration is medium, then coffee is strong. %%
@@ -76,8 +76,8 @@ D = Coffee Strength(Mild, Regular, Strong, Extra Strong)
 %% 21. If bean is Himalayan Medium and brew duration is short, then coffee is mild. %%
 %% 22. If bean is Everest Bold and brew duration is short and temperature is high, then coffee is strong. %%
 %% 23. If bean is Kanchanjunga Dark and brew duration is medium and temperature is medium, then coffee is strong. %%
-%% 24. If bean is Pahadi Light and brew duration is short and temperature is high, then coffee is regular. %%
-%% 25. If bean is Kanachanjunga Dark and brew duration is long and temperature is medium, then coffee is strong. %%
+%% 24. If (bean is Pahadi Light OR Himalayan Medium) AND brew_duration is short AND temperature is high THEN coffee is regular. %%
+%% 25. If bean is Kanchanjunga Dark AND (brew_duration is long or very long) AND temperature is medium THEN coffee is strong. %%
 ```
 
 ## Implementation
